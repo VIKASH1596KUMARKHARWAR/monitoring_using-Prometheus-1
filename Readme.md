@@ -71,7 +71,7 @@ A gauge is a metric that can go up and down. It is often used to measure values 
 - **Example**: Measuring the current memory usage or the current number of active users.
 
 ### Histogram
-A histogram samples observations (usually things like request durations or response sizes) and counts them in configurable buckets. It also provides a sum of all observed values.
+A histogram samples observations (usually things like request durations or response sizes) and counts them in configurable buckets. It also provides a sum of all observed values.It's a cummulative type
 
 - **Example**: Measuring the duration of HTTP requests.
 
