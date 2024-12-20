@@ -16,12 +16,12 @@ To run Prometheus in a Docker container, you can use either of the following met
 
 ```bash
 docker run -p 9090:9090 -v ./prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus
-
+```
 ---
 ```bash 
 docker-compose up
-
-
+````
+----
 ## Key Characteristics
 
 1. **Single Machine Operation**:
